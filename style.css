@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #EECDA3, #EF629F);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card {
+    width: 30%;
+    height: 40%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.7));
+    border-radius: 7px;
+    padding: 50px 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #067488;
+    font-weight: 400;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.color-button {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #EF629F;
+    cursor: pointer;
+}
+
+h3 {
+    color: #067488;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+/* ===color codes==== */
+
+#color1 {
+    background: linear-gradient(to top, #16BFFD, #CB3066);
+}
+
+#color2 {
+    background: linear-gradient(to top, #ff4b1f, #ff9068);
+}
+
+#color3 {
+    background: linear-gradient(to top, #00d2ff, #928DAB);
+}
+
+#color4 {
+    background: linear-gradient(to top, #0B486B, #F56217);
+}
+
+#color5 {
+    background: linear-gradient(to top, #141E30, #243B55);
+}
