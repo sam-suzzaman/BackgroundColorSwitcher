@@ -25,11 +25,15 @@ body {
 
 .card {
     width: 30%;
-    height: 40%;
+    height: 50%;
     background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.7));
     border-radius: 7px;
     padding: 50px 40px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 h2 {
@@ -42,7 +46,7 @@ h2 {
 }
 
 .color-button {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -84,4 +88,67 @@ h3 {
 
 #color5 {
     background: linear-gradient(to top, #141E30, #243B55);
+}
+
+
+
+
+/* ============================================
+            Responsive codes
+==============================================*/
+@media (max-width:1276px) {
+    .card {
+        width: 35%;
+    }
+}
+
+@media (max-width:1110px) {
+    .card {
+        width: 40%;
+    }
+}
+
+@media (max-width:960px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media (max-width:855px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media (max-width:796px) {
+    .card {
+        width: 60%;
+    }
+}
+
+@media (max-width:640px) {
+    .card {
+        width: 70%;
+    }
+}
+
+@media (max-width:555px) {
+    .card {
+        width: 70%;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    .card {
+        padding: 50px 0;
+    }
+
+}
+
+@media (max-width:436px) {
+    .card {
+        width: 95%;
+    }
 }
